@@ -8,3 +8,10 @@ num3 = input("\n Third Number = ")
 sum = float(num1) + float(num2) + float(num3)
 
 print("sum of {0} and {1} and {2} is {3}".format(num1,num2,num3,sum))
+
+
+time.sleep(10)
+for n in range(10):
+   print(n + 1 )
+   time.sleep(2)
+   
